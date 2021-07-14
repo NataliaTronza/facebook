@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./css/main.css">
+  <link rel="stylesheet" href="./css/media.css">
+</head>
+<body>
+  <header class="header">
+    <div class="container">
+      <nav class="nav">
+        <div class="logo-holder">
+          <img class="logo" src="./img/desktop/logo.svg" alt="">
+          <div class="logo-text">Designers</div>
+        </div>
+        <div class="nav__list-holder">
+          <ul class="nav__list">
+            <li class="nav__item"><a href="#" class="nav__link">Главная</a></li>
+            <li class="nav__item"><a href="#service" class="nav__link">Услуги</a></li>
+            <li class="nav__item"><a href="#" class="nav__link">О нас</a></li>
+            <li class="nav__item"><a href="#contacts" class="nav__link">Контакты</a></li>
+          </ul>
+        </div>
+        <div class="menu-icon-wrapper">
+          <div class="menu-icon"></div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <main>
+    <section class="hero">
+      <div class="container">
+        <div class="hero__wrapper">
+          <div class="hero__content">
+            <h1 class="main-title title">Закажите дизайн, создание единого стиля вашей <span class="title-accent">страницы Facebook</span></h1>
+            <p class="basic-text hero__text">Создание индивидуального дизайна страницы профиля фейсбук, оформление постов, иконок, аватаров, видео и статических заставок в стиле диджитал арт, редактирование фото и видео, facebook watch</p>
+            <a href="#form" class="button button-link">заказать</a>
+          </div>
+          <img src="./img/hero-img.png" alt="facebook" class="hero__image">
+        </div>
+      </div>
+    </section>
+    <section class="servise none">
+      <div class="container">
+        <h2 class="section-title title">Что входит в услуги по созданию дизайна <span class="title-accent">Facebook</span>?</h2>
+        <div class="servise__content">
+          <div class="servise__points servise__points--left">
+            <div class="servise__item">
+              <h3 class="servise__title">Дизайн профиля Facebook</h3>
+              <p class="basic-text">стилизация профиля в фейсбук</p>
+            </div>
+            <div class="servise__item">
+              <h3 class="servise__title">Cтилизация постов</h3>
+              <p class="basic-text">дизайн постов в фейсбук</p>
+            </div>
+            <div class="servise__item">
+              <h3 class="servise__title">Бизнес страница</h3>
+              <p class="basic-text">дизайн бизнес страницы фейсбук</p>
+            </div>
+          </div>
+          <div class="servise__image-holder"><img src="./img/tel.png" alt=""></div>
+          <div class="servise__points servise__points--right">
+            <div class="servise__item">
+              <h3 class="servise__title">Рассылка</h3>
+              <p class="basic-text">дизайн рассылки в мессенджере</p>
+            </div>
+            <div class="servise__item">
+              <h3 class="servise__title">Facebook watch</h3>
+              <p class="basic-text">дизайн для фейсбук вотч</p>
+            </div>
+            <div class="servise__item">
+              <h3 class="servise__title">Aйдентика Facebook дизайн фото профиля</h3>
+              <p class="basic-text">рисованное фото профиля фейсбук</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="buisness">
+      <div class="container">
+        <h2 class="section-title title"><span class="title-accent">Заказажите</span> оформление Facebook для бизнеса</h2>
+        <!-- Gallery -->
+        <div class="buisness__gallery">
+          <div class="buisness__image-holder buisness__image-holder--middle">
+            <img class="rounded-border" src="./img/buisness-gallery/images/restaurant.jpg" alt="">
+            <div class="buisness__caption">
+              <img src="./img/buisness-gallery/icons/restaurant.svg" alt="" class="buisness__icon">
+              <p class="buisness__text">для ресторана</p>
+            </div>
+          </div>
+          <div class="buisness__image-holder buisness__image-holder--middle">
+            <img class="rounded-border" src="./img/buisness-gallery/images/company.jpg" alt="">
+            <div class="buisness__caption">
+              <img src="./img/buisness-gallery/icons/company.svg" alt="" class="buisness__icon">
+              <p class="buisness__text">для компании</p>
+            </div>
+          </div>
+          <div class="buisness__image-holder buisness__image-holder--big">
+            <img class="rounded-border" src="./img/buisness-gallery/images/photo.jpg" alt="">
+            <div class="buisness__caption">
+              <img src="./img/buisness-gallery/icons/photo.svg" alt="" class="buisness__icon">
+              <p class="buisness__text">для фотографа</p>
+            </div>
+          </div>
+          <div class="buisness__image-holder buisness__image-holder--small">
+            <div class="buisness__image-wrapper">
+              <img class="rounded-border" src="./img/buisness-gallery/images/blog.jpg" alt="">
+              <div class="buisness__caption">
+                <img src="./img/buisness-gallery/icons/blog.svg" alt="" class="buisness__icon">
+                <p class="buisness__text">для блога</p>
+              </div>
+            </div>
+            <div class="buisness__image-wrapper">
+              <img class="rounded-border" src="./img/buisness-gallery/images/vlog.jpg" alt="">
+              <div class="buisness__caption">
+                <img src="./img/buisness-gallery/icons/vlog.svg" alt="" class="buisness__icon">
+                <p class="buisness__text">для влога</p>
+              </div>
+            </div>
+          </div>
+          <div class="buisness__image-holder buisness__image-holder--middle">
+            <img class="rounded-border" src="./img/buisness-gallery/images/facebook.jpg" alt="">
+            <div class="buisness__caption">
+              <img src="./img/buisness-gallery/icons/facebook.svg" alt="" class="buisness__icon">
+              <p class="buisness__text">для коммерции в фейсбук</p>
+            </div>
+          </div>
+          <div class="buisness__image-holder buisness__image-holder--middle">
+            <img class="rounded-border" src="./img/buisness-gallery/images/buisness.jpg" alt="">
+            <div class="buisness__caption">
+              <img src="./img/buisness-gallery/icons/buisness.svg" alt="" class="buisness__icon">
+              <p class="buisness__text">для бизнес-профиля</p>
+            </div>
+          </div>
+        </div>
+        <!-- //Gallery -->
+        <div class="buisness__slider">
+          <div class="buisness-slider swiper-container">
+            <div class="buisness-slider__wrapper swiper-wrapper">
+              <div class="buisness-slider__slide swiper-slide">
+                <div class="buisness-slider__image">
+                  <img class="rounded-border" src="./img/buisness-gallery/slider/restaurant.jpg" alt="">
+                  <div class="buisness__caption">
+                    <img src="./img/buisness-gallery/icons/restaurant.svg" alt="" class="buisness__icon">
+                    <p class="buisness__text">для ресторана</p>
+                  </div>
+                </div>
+              </div>
+              <div class="buisness-slider__slide swiper-slide">
+                <div class="buisness-slider__image">
+                  <img class="rounded-border" src="./img/buisness-gallery/slider/company.jpg" alt="">
+                  <div class="buisness__caption">
+                    <img src="./img/buisness-gallery/icons/company.svg" alt="" class="buisness__icon">
+                    <p class="buisness__text">для компании</p>
+                  </div>
+                </div>
+              </div>
+              <div class="buisness-slider__slide swiper-slide">
+                <div class="buisness-slider__image">
+                  <img class="rounded-border" src="./img/buisness-gallery/slider/photo.jpg" alt="">
+                  <div class="buisness__caption">
+                    <img src="./img/buisness-gallery/icons/photo.svg" alt="" class="buisness__icon">
+                    <p class="buisness__text">для фотографа</p>
+                  </div>
+                </div>
+              </div>
+              <div class="buisness-slider__slide swiper-slide">
+                <div class="buisness-slider__image">
+                  <img class="rounded-border" src="./img/buisness-gallery/slider/blog.jpg" alt="">
+                  <div class="buisness__caption">
+                    <img src="./img/buisness-gallery/icons/blog.svg" alt="" class="buisness__icon">
+                    <p class="buisness__text">для блога</p>
+                  </div>
+                </div>
+              </div>
+              <div class="buisness-slider__slide swiper-slide">
+                <div class="buisness-slider__image">
+                  <img class="rounded-border" src="./img/buisness-gallery/slider/vlog.jpg" alt="">
+                  <div class="buisness__caption">
+                    <img src="./img/buisness-gallery/icons/vlog.svg" alt="" class="buisness__icon">
+                    <p class="buisness__text">для влога</p>
+                  </div>
+                </div>
+              </div>
+              <div class="buisness-slider__slide swiper-slide">
+                <div class="buisness-slider__image">
+                  <img class="rounded-border" src="./img/buisness-gallery/slider/facebook.jpg" alt="">
+                  <div class="buisness__caption">
+                    <img src="./img/buisness-gallery/icons/facebook.svg" alt="" class="buisness__icon">
+                    <p class="buisness__text">для коммерции в фейсбук</p>
+                  </div>
+                </div>
+              </div>
+              <div class="buisness-slider__slide swiper-slide">
+                <div class="buisness-slider__image">
+                  <img class="rounded-border" src="./img/buisness-gallery/slider/buisness.jpg" alt="">
+                  <div class="buisness__caption">
+                    <img src="./img/buisness-gallery/icons/buisness.svg" alt="" class="buisness__icon">
+                    <p class="buisness__text">для бизнес-профиля</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="examples">
+      <div class="container">
+        <h2 class="title section-title"><span class="title-accent">Примеры</span> и портфолио оформления профиля в Facebook</h2>
+        <div class="examples__slider">
+          <div class="image-slider swiper-container">
+            <div class="image-slider__wrapper swiper-wrapper">
+              <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                  <img class="rounded-border" src="./img/slider.jpg" alt="">
+                </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                  <img class="rounded-border" src="./img/slider.jpg" alt="">
+                </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                  <img class="rounded-border" src="./img/slider.jpg" alt="">
+                </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                  <img class="rounded-border" src="./img/slider.jpg" alt="">
+                </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                  <img class="rounded-border" src="./img/slider.jpg" alt="">
+                </div>
+              </div>
+              <div class="image-slider__slide swiper-slide">
+                <div class="image-slider__image">
+                  <img class="rounded-border" src="./img/slider.jpg" alt="">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="response" id="form">
+      <img src="./img/response-img.png" alt="" class="response__img">
+      <div class="container">
+        <div class="response__content">
+          <h2 class="title section-title response__title">Заполните форму для обратной связи</h2>
+          <p class="basic-text response__text">Внесите, пожалуйста, контактную информацию, и мы свяжемся с Вами для обсуждения всех деталей.</p>
+          <form action="" class="response__form">
+            <input type="text" placeholder="ФИО">
+            <input type="text" placeholder="e-mail">
+            <input type="text" placeholder="телефонный номер">
+            <button type="submit" class="button button-link response__button">отправить</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__wrapper">
+        <div class="logo-holder footer__logo-holder footer__column">
+          <img class="logo" src="./img/desktop/logo.svg" alt="">
+          <div class="logo-text">Designers</div>
+        </div>
+        <div class="footer__column footer__adress">
+          <a href="mailto:hr@remotemployees.com" class="footer__text">hr@remotemployees.com</a>
+          <p class="footer__text">ул. Рымарская 22, Харьков, Украина</p>
+        </div>
+        <div class="footer__column footer__tel">
+          <div class="footer__number">
+            <img src="./img/tel.svg" alt="">
+            <a href="tel:+380666146404" class="footer__text"><span>+380666146404</span> Валерия</a>
+          </div>
+          <div class="footer__number">
+            <img src="./img/tel.svg" alt="">
+            <a href="tel:+380960933838" class="footer__text"><span>+380960933838</span> Анна</a>
+          </div>
+          <div class="footer__number">
+            <img src="./img/tel.svg" alt="">
+            <a href="tel:+380994160329" class="footer__text"><span>+380994160329</span> Валерия</a>
+          </div>
+        </div>
+      </div>
+      <div class="footer__wrapper">
+        <p class="footer__text"><a href="https://remotemployees.com/privacy-policy/" class="footer__text">RemotEmployees 2018-2020</a>© All rights reserved</p>
+        <div class="footer__socials">
+          <a href="viber://chat?number=380666146404"><img src="./img/socials/viber.svg" alt=""></a>
+          <a href="https://www.facebook.com/remotemployees"><img src="./img/socials/facebook.svg" alt=""></a>
+          <a href="https://www.instagram.com/remotemployees/"><img src="./img/socials/instagram.svg" alt=""></a>
+          <a href="https://wa.me/380666146404"><img src="./img/socials/whatsapp.svg" alt=""></a>
+          <a href="https://t.me/remotemployees"><img src="./img/socials/telegram.svg" alt=""></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
